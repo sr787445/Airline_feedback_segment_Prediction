@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback Form</title>
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<img class="wave" src="static/img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="static/img/bg.svg">
+		</div>
+		<div class="Feedback-content">
+			<form action='/predict' method="POST">
+				<h2 class="title">Input the Feedback of your Airline experience</h2>
+           		<div class="input-div one">
+           		   <div class="div">
+           		   		<input name="seg" type="text" class="input">
+           		   </div>
+           		</div>
+            	<button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+	</div>
+</body>
+</html>
